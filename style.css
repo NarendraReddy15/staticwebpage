@@ -1,0 +1,143 @@
+.na{
+  display:flex;
+  border-bottom: 1px solid lightgrey;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  height:35px;
+  padding: 0px 20px 0px 20px;
+  /* background: rgb(173,191,221);
+background: radial-gradient(circle, rgba(173,191,221,1) 49%, rgba(244,245,245,1) 100%); */
+background-color: #6CB4EE;
+}
+.mid,.lef{
+  display:flex;
+  gap:20px;
+  align-items: center;
+}
+.rig{
+  display:flex;
+  /* gap:5px; */
+  align-items: center;
+  gap:5px;
+}
+.btnn{
+  border:none;
+font-weight: bold;
+border-radius: 4px;
+background-color: #6CB4EE;
+
+/* background-color:lightcyan */
+}
+body{
+
+  margin:0;
+  box-sizing: border-box;
+
+}
+.sec1{
+  width:200px;
+  height:80vh;
+  background: rgb(173,191,221);
+background: radial-gradient(circle, rgba(173,191,221,1) 49%, rgba(244,245,245,1) 100%);
+  
+  border:1px solid lightgrey;
+  margin-top:20px;
+}
+.sec2{
+  width:1000px;
+  height:20vh;
+  text-align: center;
+  border:1px solid lightgrey;
+  margin-top:20px;
+  font-size:30px;
+  /* background-color: rgb(164, 216, 250);
+
+   */background: rgb(238,174,202);
+background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(173,191,221,1) 49%, rgba(114,172,241,1) 100%);
+}
+.sec{
+  display: flex;
+  margin:20px auto;
+  gap:20px;
+  width:1200px;
+}
+.sec3{
+  width:970px;
+  height:60vh;
+  position:relative;
+  
+  
+  display: flex;
+  gap:80px;
+  padding: 20px;;
+}
+/* .btnn{
+  border:none;
+  color:rgba(4, 4, 70, 0.941);
+  background-color:white;
+  font-size: 15px;
+
+} */
+.head{
+  color:black;
+}
+.block{
+  display:flex;
+  margin-top: 5px;
+  
+  
+}
+.b{
+  border:1px solid lightgray;
+  width:33%;
+  height: 30px;
+
+  /* background-color: rgb(195, 223, 246); */
+}
+.ff{
+  border:1px solid lightgrey;
+  width:300px;
+  padding-left: 50px;
+  border-radius: 30px;;
+  background-color: rgb(2, 32, 86);
+  
+}
+input{
+  width:200px;
+  height:30px;
+}
+.submit{
+  width:200px;
+  height:30px;
+  border-radius: 30px;
+  margin-bottom: 20px;
+  font-size:18px;
+  font-weight:bold;
+  color:white;
+  background-color: cornflowerblue;
+
+}
+label{
+  color:white;
+}
+.in{
+  width:150px;
+  border-radius:5px;
+  border:none;
+  background-color: white;
+  height:20px;
+  border:1px solid lightgrey;
+  
+  
+}
+.sv{
+  display:flex;
+  flex-wrap:wrap ;
+}
+.s{
+  display:flex;
+  align-items: center;
+  gap:5px;
+  margin-top:5px;
+}
